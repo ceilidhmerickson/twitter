@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'main_pages#index'
   get 'about_us', to: 'main_pages#about_us'
   get 'faqs', to: 'main_pages#faqs'
+  get 'private_pages/main', to: 'private_pages#index'
 end

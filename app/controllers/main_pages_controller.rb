@@ -3,4 +3,7 @@ class MainPagesController < ApplicationController
 		@name = "ceilidh"
 		@pi = 3.14159
 	end
+	def about_us
+		@location = "New York"
+	end
 end

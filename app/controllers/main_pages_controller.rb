@@ -6,4 +6,7 @@ class MainPagesController < ApplicationController
 	def about_us
 		@location = "New York"
 	end
+	def faqs
+		@faqs = "none of your business"
+	end
 end
